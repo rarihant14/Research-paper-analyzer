@@ -11,7 +11,6 @@ A multi-agent system that automatically reads academic research papers and gener
 | **Multi-Agent Orchestration** | LangGraph state machine with Boss Agent + 4 specialized sub-agents |
 | **Quality Control Loop** | Review Agent scores each output (1-10); retries up to 2× if score < 7 |
 | **Token-Efficient RAG** | Each agent receives only the relevant paper section (not the full text) — saves ~80% of tokens vs naive approach |
-| **Free-Tier Friendly** | Uses Gemini 1.5 Flash with rate-limit back-off; ~18K tokens total per paper |
 | **Streamlit UI** | Live agent pipeline progress, score badges, tabs per section, download button |
 
 ---
@@ -62,7 +61,7 @@ Input (PDF / URL / Text)
 
 ### 1. Clone / download the project
 ```bash
-git clone <https://github.com/rarihant14/Research-paper-analyzer>
+git clone https://github.com/rarihant14/Research-paper-analyzer
 cd research_analyzer
 ```
 
