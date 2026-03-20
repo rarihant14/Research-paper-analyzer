@@ -62,7 +62,7 @@ Input (PDF / URL / Text)
 
 ### 1. Clone / download the project
 ```bash
-git clone <your-repo>
+git clone <https://github.com/rarihant14/Research-paper-analyzer>
 cd research_analyzer
 ```
 
