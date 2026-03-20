@@ -61,7 +61,7 @@ Input (PDF / URL / Text)
 
 ### 1. Clone / download the project
 ```bash
-git clone https://github.com/rarihant14/Research-paper-analyzer
+git clone github.com/rarihant14/Research-paper-analyzer
 cd research_analyzer
 ```
 
@@ -87,11 +87,6 @@ Get a free key at: https://aistudio.google.com/app/apikey
 ### 5. Run the app
 ```bash
 streamlit run app.py
-```
-
-Open http://localhost:8501 in your browser.
-
----
 
 ## 📂 Project Structure
 
