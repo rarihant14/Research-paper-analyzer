@@ -87,29 +87,6 @@ Get a free key at: https://aistudio.google.com/app/apikey
 ### 5. Run the app
 ```bash
 streamlit run app.py
-
-## 📂 Project Structure
-
-```
-research_analyzer/
-├── app.py                    # Streamlit UI
-├── requirements.txt
-├── .env.example
-│
-├── utils/
-│   ├── pdf_processor.py      # PDF extraction + section parser + context builder
-│   └── gemini_client.py      # Gemini API wrapper with retry / rate-limit handling
-│
-├── agents/
-│   ├── analyzer.py           # Paper Analyzer Agent
-│   ├── summarizer.py         # Summary Generator Agent
-│   ├── citation_extractor.py # Citation Extractor Agent
-│   ├── insights.py           # Key Insights Agent
-│   └── reviewer.py           # Review Agent (QC)
-│
-└── graph/
-    ├── state.py              # LangGraph state schema (TypedDict)
-    └── workflow.py           # LangGraph graph: nodes, edges, conditionals
 ```
 
 ## 💡 Usage Tips
