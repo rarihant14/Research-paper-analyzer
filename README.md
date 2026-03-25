@@ -112,7 +112,6 @@ research_analyzer/
     └── workflow.py           # LangGraph graph: nodes, edges, conditionals
 ```
 
-
 ## 💡 Usage Tips
 
 - **Best input**: arXiv PDF links (e.g. `https://arxiv.org/pdf/2301.00234`)
